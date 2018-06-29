@@ -1,3 +1,6 @@
+*{
+  margin: 0 0;
+}
 body{
   background-image: url('img/sample-pattern.png');
   
@@ -9,7 +12,6 @@ header {
     height: 40px;
     position : fixed;
     top: 0px;
-    left : 0px;
     padding: 10px 10px 10px 10px;
   }
   
@@ -56,11 +58,9 @@ article{
 
 footer{
     background-color: black;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
     width: 100%;
+    height: 80px;
+    line-height: 35px;
     text-align: center;
     color: white;
     
